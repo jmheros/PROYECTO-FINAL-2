@@ -1,0 +1,27 @@
+
+
+#separador{
+    background-color:rgb(223, 217, 217) ;
+ 
+    &::after{
+     
+    content: '';
+    background-color: transparent;
+    display: block;
+    height: 20px;
+    width: 50%;
+    margin: 0 auto;
+    left: auto;
+    margin-top: -40px;
+
+    }
+}
+
+#juegos{
+    background-color:rgb(223, 217, 217) ;
+    position: relative;
+    margin-top: -20px;
+    z-index: 10;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    border-radius: 20px;
+}
